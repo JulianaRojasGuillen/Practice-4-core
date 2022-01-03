@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>
+            Formulario
+        </title>
+        <meta charset="UTF-8" />
+        <body>
+            <h1>
+                Registration Form
+            </h1>
+            <form>
+                <div>
+                    <label for="firstName">
+                        First Name:*
+                    </label>
+                    <input type="text" name="firstName" id="firstName"/>
+                </div>
+                <div>
+                    <label for="lasttName">
+                        Last Name:*
+                    </label>
+                    <input type="text" name="lastName" id="lastName"/>
+                </div>
+                <div>
+                    <label for="lasttName">
+                        Last Name:*
+                    </label>
+                    <input type="text" name="lastName" id="lastName"/>
+                </div>
+                <div>
+                    <label for="emailAdress">
+                        Last Email Adress:*
+                    </label>
+                    <input type="text" name="emailAdress" id="emailAdress"/>
+                </div>
+                <div>
+                    <label for="password">
+                        Password:*
+                    </label>
+                    <input type="password" name="password" id="password"/>
+                </div>
+                <div>
+                    <label for="confirmPassword">
+                        Confirm Password:*
+                    </label>
+                    <input type="password" name="confirmPassword" id="confirmPassword"/>
+                </div>
+                <div>
+                    <label for="birthday">
+                        Birthday:*
+                    </label>
+                    <input type="date" name="birthday" id="birthday"/>
+                </div>
+                <div>
+                    <label for="gender">
+                        Gender Identity:
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male"/>
+                    <label for="male">
+                        Male
+                    </label>
+                    <input type="radio" name="gender" id="female"/>
+                    <label for="female">
+                        Female
+                    </label>
+                    <input type="radio" name="gender" id="nonbinary"/>
+                    <label for="nonbinary">
+                        Non-binary
+                    </label>
+                    <input type="radio" name="gender" id="notanswer"/>
+                    <label for="notanswer">
+                        I prefer not to answer
+                    </label>
+                </div>
+                <div>
+                    <label for="description">
+                        A short description about myself:
+                    </label>
+                </div>
+                <div>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <div>
+                    <label for="favLanguage">
+                        Favorite Language
+                    </label>
+                    <select id="favLanguage" name="favLanguage">
+                        <option value="JavaScript">
+                            Java Script
+                        </option>
+                    </select>
+                </div>   
+                <div>
+                    <input type="checkbox" name="emailUpdates" id="emailUpdates"/>
+                    <label for="emailUpdates">
+                        Yes, I would like to receive periodic email updates
+                    </label>
+                </div>
+                <button type="submit">
+                    Create Account
+                </button>
+                <div>
+                    * Indicates a required field
+                </div>
+            </form>
+        </body>
+    </head>
+</html>
